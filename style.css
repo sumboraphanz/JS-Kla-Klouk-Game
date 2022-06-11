@@ -1,0 +1,188 @@
+*{
+				box-sizing: border-box;
+				margin: 0; padding: 0;
+}
+body{
+    background:#f9f5b5;				
+}
+header{
+				display: flex;
+				align-items: center;
+				margin-top: 20px;
+				margin-left: 20px;
+}
+header img{
+				width: 200px;
+}
+header p{
+				font-size: 100px;
+				margin-left: 20px;
+				color:blue ;
+}
+.content{
+				display: flex;
+				width: 100%;
+				justify-content: space-between;
+				margin-top: 20px;
+}
+.left{
+				width: 65%;
+				background: brown;
+				height: 500px;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+}
+.left img{
+				width: 170px;
+				margin: 40px 20;
+}
+.right{
+				width: 30%;				
+				height: 500px;
+				display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.plate{
+				background: #86dff3;
+				height: 280px;
+				width: 280px;
+				border: 20px solid purple;
+				border-radius: 50%;     
+     margin-right: 20px;
+     text-align: center;
+     position: relative;
+}
+.plate img{
+				width: 80px;
+				transform: translateY(15%);
+				margin: 5px;
+}
+
+#btn_open{
+				background: red;
+				font-size: 50px;
+				padding: 10px;
+				margin-top: 20px;
+				color: #fff;
+}
+.left p{
+				position: absolute;				
+				font-size: 40px;
+				color: #fff;
+}
+.left #p1{
+				left: 100px;
+				top:0;
+}.left #p2{
+				left: 300px;
+				top:0;
+}
+.left #p3{
+				left: 510;
+				top:0;
+}
+.left #p4{
+				left: 100px;
+}.left #p5{
+				left: 300px;				
+}
+.left #p6{
+				left: 510;				
+}
+
+#luy1{
+				position: absolute;
+				left: 20px;
+				top: 30px;
+				width: 90px;
+				transform: rotate(-30deg);
+				display: none;
+				
+}
+#luy2{
+				position: absolute;
+				left: 220px;
+				top: 30px;
+				width: 90px;
+				transform: rotate(-30deg);
+				display: none;
+}
+#luy3{
+				position: absolute;
+				left: 430px;
+				top: 30px;
+				width: 90px;
+				transform: rotate(-30deg);	
+				display: none;		
+}
+#luy4{
+				position: absolute;
+				left: 20px;
+				top: 270px;
+				width: 90px;
+				transform: rotate(-30deg);	
+		  	display: none;			
+}
+
+#luy5{
+				position: absolute;
+				left: 220px;
+				top: 270px;
+				width: 90px;
+				transform: rotate(-30deg);
+		  	display: none;				
+}
+
+#luy6{
+				position: absolute;
+				left: 430px;
+				top: 270px;
+				width: 90px;
+				transform: rotate(-30deg);
+				display: none;
+}
+
+#plate{
+				position: absolute;				
+				left: -20px;
+			 top: -300px;
+			 border: red;
+			 background: green;
+			 z-index: 1;
+			 transition: 0.5s;
+}
+.title
+{
+				
+}
+.title p{
+				font-size: 80px;
+				text-align: center;
+				font-family: 'Moul', cursive;
+     color: red;
+
+}
+.donate{
+				margin-top: 20px;
+}
+.donate .p{
+				font-size: 50px;
+				text-align: center;
+				color: red;
+}
+.aba{
+				display: flex;
+				align-items: center;
+}
+.aba p{
+				font-size: 50px;
+				
+}
+.aba img{
+				width: 200px;
+}
